@@ -18,11 +18,7 @@ export default function Home() {
    <About />
    <EventFeatures />
    <Schedule />
-   {/* <Speakers /> */}
-   {/* <Register /> */}
    <Faq />
-   {/* <Venue /> */}
-
   </>
   );
 }
