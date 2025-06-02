@@ -16,8 +16,8 @@ export default function Sponsors() {
       {/* Optional Title */}
       {/* <h3 className="text-white text-center text-3xl font-semibold mb-12">Sponsored by</h3> */}
 
-      {/* Desktop Grid (uncomment if needed) */}
-      {/* 
+      {/* Desktop Grid  */}
+      
       <div className="hidden md:grid grid-cols-5 gap-10 items-center justify-items-center">
         {sponsors.map(({ name, logo }) => (
           <img
@@ -30,9 +30,10 @@ export default function Sponsors() {
           />
         ))}
       </div> 
-      */}
+     
 
       {/* Mobile Continuous Scroll Carousel */}
+      <div className="md:hidden">
       <Swiper
         spaceBetween={24}
         slidesPerView={5}
@@ -71,6 +72,7 @@ export default function Sponsors() {
             </SwiperSlide>
           ))}
       </Swiper>
+      </div>
     </section>
   );
 }
