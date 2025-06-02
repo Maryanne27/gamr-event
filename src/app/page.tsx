@@ -14,7 +14,7 @@ export default function Home() {
   return (
   <>
    <Hero />
-   <Sponsors />
+   {/* <Sponsors /> */}
    <About />
    <EventFeatures />
    <Schedule />
